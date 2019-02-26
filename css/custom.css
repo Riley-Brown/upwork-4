@@ -1,0 +1,856 @@
+/* custom styles after template styles */
+body {
+  overflow-x: hidden;
+}
+/* fullscreen spinner */
+.fullscreen-spinner {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, #d5896f, #240b36);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 10000;
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* top site section */
+.masthead .btn {
+  background-color: #db5461;
+  color: white;
+  border-radius: 5px;
+}
+.navbar a {
+  font-family: "MuseoSans-500", sans-serif;
+}
+
+header.masthead {
+  background-image: linear-gradient(to right, #d5896f, #240b36);
+  height: auto;
+  position: relative;
+}
+header.masthead img {
+  width: 80%;
+  height: 100%;
+  padding-top: 5vh;
+  display: block;
+  margin: auto;
+}
+.header-content h1 {
+  margin-top: 20vh;
+  font-family: "MuseoSans-500", sans-serif;
+}
+.landing-small-screen {
+  display: none;
+}
+
+/* sounds in my head section */
+.sounds-in-my-head h4 {
+  color: white;
+  padding-top: 20px;
+  font-family: MuseoSans-300, sans-serif;
+}
+.sounds-in-my-head .btn {
+  background-color: #43b4c0;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.sounds-logo {
+  margin-top: 30px;
+  margin-left: auto;
+  max-width: 600px;
+}
+.sounds-logo img {
+  width: 70%;
+}
+.sounds-logo h4 {
+  width: 80%;
+  line-height: 1.45;
+}
+.sounds-in-my-head {
+  background: #261d2e;
+  color: white;
+  overflow-x: hidden;
+}
+
+.sounds-in-my-head .container-fluid {
+  padding-right: 0;
+}
+.sounds-in-my-head {
+  padding-bottom: 0;
+}
+
+/* wb flashback section */
+.wb-flashback {
+  padding-bottom: 150px;
+  background-color: #f2f2f2;
+}
+/* hide until 500px */
+.wb-flashback-mobile {
+  display: none;
+}
+
+.wb-flashback-pic {
+  margin-top: 60px;
+}
+.wb-flashback-content {
+  margin-top: 140px;
+}
+.wb-flashback-content span {
+  background-color: #db5461;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.wb-flashback-content h3 {
+  margin-top: 20px;
+  font-family: MuseoSans-300, sans-serif;
+}
+.wb-flashback-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* flying with daniel section */
+.flying-with-dsd-container {
+  background-color: #08180b;
+  color: white;
+}
+.flying-with-dsd {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.flying-with-dsd a,
+.flying-with-dsd span {
+  background-color: #b337bd;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+}
+.flying-with-dsd-pic img {
+  width: 100%;
+}
+.flying-with-dsd-pic {
+  width: 90%;
+  margin-left: auto;
+}
+
+.flying-with-dsd-content h3 {
+  margin: 40px 0;
+  font-family: MuseoSans-300, sans-serif;
+}
+.fly-btn-show-small {
+  display: none;
+}
+
+/* vinnies pizza section */
+.vinnies-pizza-container {
+  background-color: #edebeb;
+}
+
+.vinnies-pizza-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+.vinnies-pizza-content img {
+  width: 100%;
+}
+.vinnies-logo-show-lg {
+  display: block;
+}
+.vinnies-logo-show-sm {
+  display: none;
+}
+.vinnies-content img {
+  margin-top: 30px;
+}
+
+.vinnies-content p {
+  margin-top: 20px;
+  font-family: MuseoSans-300, sans-serif;
+}
+.vinnies-content span {
+  color: #122376;
+  font-weight: 900;
+}
+.vinnies-content span.btn {
+  background-color: #122376;
+  color: white;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+/* plants sections */
+.plants-container {
+  background-image: url("../new-images/plants-with-no-word.jpg");
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plants {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  /* max-width: 400px; */
+}
+.plants span {
+  background-color: #eb5624;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+}
+.plants img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+.plants h3 {
+  margin-top: 5vh;
+  font-family: MuseoSans-300, sans-serif;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* new york grid */
+.grid-container {
+  display: grid;
+  height: 100%;
+  padding-top: 60px;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 0.9fr;
+  grid-gap: 40px 0px;
+  grid-template-areas:
+    "new-york-svg new-york-pic-1 new-york-pic-2"
+    "new-york-text-btn new-york-text-btn new-york-pic-2";
+}
+
+/* new york post section */
+.new-york-svg {
+  grid-area: new-york-svg;
+  margin-right: 50px;
+}
+
+.new-york-pic-1 {
+  grid-area: new-york-pic-1;
+}
+.new-york-pic-1 img {
+  transform: rotate(-10deg);
+}
+
+.new-york-pic-2 {
+  grid-area: new-york-pic-2;
+}
+.new-york-pic-2 img {
+  transform: rotate(10deg);
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.new-york-text-btn {
+  grid-area: new-york-text-btn;
+  width: 90%;
+}
+.new-york-text-btn h3 {
+  font-family: MuseoSans-300, sans-serif;
+}
+h3 strong {
+  font-family: MuseoSans-900, sans-serif;
+}
+.new-york-text-btn span {
+  background-color: #000;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.new-york-post-container img {
+  width: 100%;
+}
+.new-york-post-container {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+/* vans section */
+.vans-container {
+  background-color: #eceabb;
+}
+.vans-container img {
+  width: 100%;
+}
+
+/*  vans grid*/
+
+.vans-grid-container {
+  display: grid;
+  height: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
+  grid-gap: 0px 0px;
+  grid-template-areas: "vans-logo vans-logo vans-pic-2 vans-pic-4" "vans-text-btn vans-pic-1 vans-pic-3 vans-pic-5";
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.vans-container img {
+  display: block;
+  width: 90%;
+  margin: auto;
+  box-shadow: 9px -9px 15px 0 rgba(0, 0, 0, 0.3);
+  border: solid 5px #ffffff;
+}
+/* display none for small vans container */
+.vans-display-small {
+  display: none;
+}
+.vans-logo {
+  grid-area: vans-logo;
+  width: 70%;
+  margin: auto;
+}
+.vans-logo img {
+  box-shadow: none;
+  border: none;
+  width: 100%;
+}
+
+.vans-text-btn {
+  grid-area: vans-text-btn;
+  width: 70%;
+  margin-left: auto;
+}
+.vans-text-btn h3 {
+  font-family: MuseoSans-300, sans-serif;
+}
+.vans-text-btn span {
+  background-color: #db5461;
+  color: white;
+  border-radius: 5px;
+}
+
+.vans-pic-1 {
+  grid-area: vans-pic-1;
+  transform: rotate(-7deg);
+}
+
+.vans-pic-2 {
+  grid-area: vans-pic-2;
+  transform: rotate(5deg);
+}
+
+.vans-pic-3 {
+  grid-area: vans-pic-3;
+  transform: rotate(2deg);
+}
+
+.vans-pic-4 {
+  grid-area: vans-pic-4;
+  transform: rotate(-5deg);
+}
+
+.vans-pic-5 {
+  grid-area: vans-pic-5;
+  transform: rotate(-2deg);
+}
+/* hide small van section until 500px */
+
+/* media */
+
+/* changes spacing on sounds section */
+@media (max-width: 1100px) {
+  .sounds-logo {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .sounds-in-my-head .btn {
+    margin-top: 0px;
+  }
+}
+
+/* changes basic spacing */
+@media (max-width: 991px) {
+  .sounds-logo {
+    margin: 0 auto;
+  }
+  .sounds-in-my-head .btn {
+    margin-bottom: 50px;
+  }
+  .sounds-logo img {
+    width: 85%;
+  }
+  .flying-with-dsd {
+    width: 90%;
+  }
+  .vinnies-content img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 890px) {
+  /* changes new york post container to flex  */
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 60px;
+    width: 90%;
+  }
+  /*  changes new york spacing */
+  .new-york-post-container img {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+  .new-york-text-btn {
+    grid-area: new-york-text-btn;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  /* changes vans grid to flex */
+  .vans-grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* changes van section spacing */
+  .vans-container img {
+    display: block;
+    width: 60%;
+    margin: auto;
+    box-shadow: 9px -9px 15px 0 rgba(0, 0, 0, 0.3);
+    border: solid 5px #ffffff;
+  }
+
+  .vans-logo {
+    width: 70%;
+    margin: auto;
+  }
+  .vans-logo img {
+    box-shadow: none;
+    border: none;
+    width: 100%;
+  }
+
+  .vans-text-btn {
+    grid-area: vans-text-btn;
+    width: 70%;
+    margin: 30px auto;
+  }
+
+  .vans-text-btn span {
+    background-color: #db5461;
+    color: white;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .flying-with-dsd-content {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .flying-with-dsd span {
+    background-color: #b337bd;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+  .flying-with-dsd-content h3 {
+    margin: 20px 0;
+  }
+  .flying-with-dsd-pic {
+    display: block;
+    margin: 0 auto;
+  }
+  .vinnies-content img {
+    width: 80%;
+  }
+  .vinnies-pizza-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wb-flashback-content {
+    margin-top: 50px;
+  }
+  .wb-flashback {
+    padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 650px) {
+  .wb-flashback-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .flying-with-dsd-content {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .flying-with-dsd-pic {
+    width: 100%;
+  }
+  .vinnies-content img {
+    width: 90%;
+  }
+  .plants {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .new-york-post-container img {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  .new-york-text-btn {
+    grid-area: new-york-text-btn;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .vans-container img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    box-shadow: 9px -9px 15px 0 rgba(0, 0, 0, 0.3);
+    border: solid 5px #ffffff;
+  }
+
+  .vans-logo {
+    width: 90%;
+    margin: auto;
+  }
+  .vans-logo img {
+    box-shadow: none;
+    border: none;
+    width: 100%;
+  }
+
+  .vans-text-btn {
+    grid-area: vans-text-btn;
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .vans-text-btn span {
+    background-color: #db5461;
+    color: white;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* changes landing page background image 992px */
+  header.masthead {
+    display: none;
+  }
+  .landing-small-screen {
+    display: block;
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(to right, #d5896f, #240b36);
+    z-index: 0;
+  }
+
+  .landing-small-screen img {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    right: 0;
+    left: 0;
+    width: 50%;
+    height: 90vh;
+    margin: auto;
+    z-index: -1;
+    object-fit: cover;
+  }
+  .landing-small-screen-content {
+    color: white;
+    padding-top: 65vh;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    max-width: 400px;
+  }
+  .landing-small-screen-content h1 {
+    font-size: 1.5rem;
+    font-family: "MuseoSans-300", sans-serif;
+  }
+  .landing-small-screen-content a {
+    background-color: #db5461;
+    border-radius: 5px;
+    color: white;
+  }
+}
+
+/* change landing image width */
+@media (max-width: 768px) {
+  .landing-small-screen img {
+    width: 65%;
+  }
+}
+@media (max-width: 550px) {
+  .landing-small-screen img {
+    width: 80%;
+  }
+}
+@media (max-width: 420px) {
+  .landing-small-screen img {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .landing-small-screen {
+    display: block;
+    position: relative;
+    height: auto;
+    background-image: linear-gradient(to right, #d5896f, #240b36);
+    z-index: 0;
+  }
+  .landing-small-screen-content {
+    padding-top: 60vh;
+    padding-bottom: 25vh;
+  }
+}
+@media (max-width: 370px) {
+  .landing-small-screen-content {
+    padding-top: 60vh;
+  }
+}
+/* hide image on small height devices */
+@media (max-height: 420px) {
+  .landing-small-screen img {
+    display: none;
+  }
+  .landing-small-screen-content {
+    padding-top: 30vh;
+  }
+}
+
+/* mobile media queries */
+@media (max-width: 500px) {
+  .sounds-logo {
+    text-align: center;
+    width: 100%;
+  }
+  .sounds-logo h4 {
+    font-size: 1.2rem;
+    margin: auto;
+  }
+  .sounds-logo .btn {
+    margin-top: 20px;
+  }
+  /* change out wb flashback logos */
+  .wb-flashback-mobile {
+    display: block;
+  }
+  .wb-flashback-large {
+    display: none;
+  }
+  .wb-flashback {
+    padding-bottom: 40px;
+  }
+  .wb-flashback-content {
+    text-align: center;
+  }
+  .wb-flashback-content h3 {
+    font-size: 1.3rem;
+  }
+  .flying-with-dsd {
+    padding-top: 50px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  .flying-with-dsd-content {
+    width: 80%;
+  }
+  .flying-with-dsd-content img {
+    width: 80%;
+  }
+  .fly-btn-show-lg {
+    display: none;
+  }
+  .flying-with-dsd-pic img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .fly-btn-show-small {
+    display: block;
+    max-width: 230px;
+    margin: auto;
+  }
+  .vinnies-pizza-content {
+    padding: 60px 0;
+    text-align: center;
+  }
+  .vinnies-pizza-content p {
+    text-align: left;
+  }
+
+  .vinnies-logo-show-sm {
+    margin-bottom: 20px;
+    display: block;
+  }
+  .vinnies-logo-show-lg {
+    display: none;
+  }
+  .vinnies-content .btn {
+    text-align: center;
+  }
+
+  /* new york post section */
+  .new-york-svg {
+    margin-right: 0px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .new-york-text-btn {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    z-index: 2;
+  }
+  .new-york-text-btn h3 {
+    font-family: MuseoSans-300, sans-serif;
+    font-size: 1.3rem;
+    padding-top: 20px;
+  }
+  h3 strong {
+    font-family: MuseoSans-900, sans-serif;
+  }
+  .new-york-text-btn span {
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+  .new-york-post-container {
+    position: relative;
+  }
+  .new-york-post-container img {
+    width: 100%;
+  }
+  .new-york-pic-1 {
+    width: 50%;
+  }
+  /* absolute position pic 2 to be next to pic 1 */
+  .new-york-pic-2 {
+    width: 50%;
+    position: absolute;
+    bottom: -150px;
+    right: 0;
+  }
+  .vans-grid-container {
+    padding: 50px 0;
+    text-align: center;
+    display: none;
+  }
+  .vans-text-btn h3 {
+    font-size: 1.3rem;
+  }
+  .vans-text-btn .btn {
+    margin-top: 10px;
+  }
+  /* hide van pic 5 */
+  .vans-pic-5 {
+    display: none;
+  }
+  .vans-container img {
+    width: 100%;
+  }
+
+  .vans-pic-1 {
+    transform: rotate(5deg);
+    z-index: 1;
+  }
+  .vans-pic-2 {
+    transform: rotate(-5deg);
+  }
+  .vans-pic-3 {
+    transform: rotate(-7deg);
+  }
+  .vans-pic-4 {
+    transform: rotate(2deg);
+  }
+  .vans-display-small {
+    display: block;
+  }
+  .vans-display-small {
+    background-color: #eceabb;
+    padding: 50px 0;
+    height: auto;
+  }
+  .vans-text-content-small {
+    text-align: center;
+  }
+  .vans-text-content-small .btn {
+    background-color: #db5461;
+    border-radius: 5px;
+    color: white;
+    margin: 20px auto;
+  }
+  .vans-text-content-small h3 {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    font-family: "MuseoSans-500", sans-serif;
+  }
+  .vans-group-1 img,
+  .vans-group-2 img {
+    width: 50%;
+    height: 100%;
+    border: 3px solid white;
+  }
+  .vans-group-1 {
+    display: flex;
+  }
+
+  .vans-group-2 {
+    display: flex;
+  }
+  #van-small-1 {
+    transform: rotate(5deg);
+    box-shadow: 5.5px 5.5px 9px 0 rgba(0, 0, 0, 0.1);
+  }
+  #van-small-2 {
+    transform: rotate(-5deg);
+    box-shadow: 5.5px 5.5px 9px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  #van-small-3 {
+    transform: rotate(-7deg);
+    box-shadow: 6.5px -6.5px 10.5px 0 rgba(0, 0, 0, 0.1);
+  }
+  #van-small-4 {
+    transform: rotate(2deg);
+    box-shadow: -6.5px -6.5px 10.5px 0 rgba(0, 0, 0, 0.1);
+  }
+}

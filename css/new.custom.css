@@ -1,0 +1,1161 @@
+/* custom styles after template styles */
+
+body {
+  overflow-x: hidden;
+}
+
+/* fullscreen spinner */
+.fullscreen-spinner {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, #d5896f, #240b36);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 10000;
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* top site section */
+.masthead .btn {
+  background-color: #db5461;
+  color: white;
+  border-radius: 10px;
+  font: 20px/23px "MuseoSans-500", sans-serif;
+  height: 50px;
+  text-align: center;
+}
+
+.masthead .btn:hover {
+  background-color: #ff6674;
+}
+
+.navbar a {
+  font-family: "MuseoSans-500", sans-serif;
+}
+
+header.masthead {
+  background-image: linear-gradient(to right, #d5896f, #240b36);
+  height: auto;
+  position: relative;
+}
+header.masthead img {
+  width: 80%;
+  height: 100%;
+  padding-top: 5vh;
+  display: block;
+  margin: auto;
+}
+.header-content h1 {
+  margin-top: 15vh;
+  font-family: "MuseoSans-100", sans-serif;
+  font-weight: normal;
+}
+.landing-small-screen {
+  display: none;
+}
+
+footer {
+  background: #f5f5f5;
+}
+
+body#page-top footer div.container p {
+  font: 12px/18px MuseoSans-300, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #444;
+}
+
+/* portfolio animation section */
+.portfolio-image-slider {
+  width: 100%;
+  /* max-width: 1200px; */
+  overflow: hidden;
+  margin: auto;
+  height: auto;
+
+  background: linear-gradient(
+    135deg,
+    #006b62 0%,
+    #00877c 42%,
+    #008478 61%,
+    #35746c 100%
+  );
+}
+.portfolio-image-slider img {
+  width: 390px;
+  margin: 70px 20px 35px;
+  height: 390px;
+}
+.portfolio-image-slider .image-slider-content {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-family: "MuseoSans-300", sans-serif;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.portfolio-image-slider .image-slider-content a {
+  background: white;
+  color: #008478;
+  border-radius: 10px;
+  font-weight: 600;
+}
+/* photobanner */
+.portfolio-image-slider .photobanner {
+  /* height: 80vh; */
+  width: 3240px;
+  display: flex;
+  align-items: center;
+}
+/* .portfolio-image-slider .photobanner img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+} */
+.portfolio-image-slider .photobanner img {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* keyframe animations */
+.portfolio-image-slider .first {
+  -webkit-animation: bannermove 45s linear infinite;
+  -moz-animation: bannermove 45s linear infinite;
+  -ms-animation: bannermove 45s linear infinite;
+  -o-animation: bannermove 45ss linear infinite;
+  animation: bannermove 45s linear infinite;
+}
+@keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2150px;
+  }
+}
+@-moz-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2150px;
+  }
+}
+@-webkit-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2150px;
+  }
+}
+@-ms-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2150px;
+  }
+}
+@-o-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2150px;
+  }
+}
+/* sounds in my head section */
+.sounds-in-my-head h4 {
+  color: #ebebeb;
+  padding-top: 30px;
+  font: 22px/32px MuseoSans-300, sans-serif;
+}
+.sounds-in-my-head .btn {
+  background-color: #43b4c0;
+  font: 20px/25px "MuseoSans-500", sans-serif;
+  letter-spacing: 0.05em;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 50px;
+  padding: 14px 20px 0;
+}
+.sounds-in-my-head .btn:hover {
+  background-color: #26929e;
+}
+.sounds-logo {
+  margin-top: 0;
+  margin-left: auto;
+  max-width: 600px;
+}
+.sounds-logo img {
+  width: 100%;
+  overflow: hidden;
+}
+.sounds-logo h4 {
+  width: 80%;
+  line-height: 1.45;
+}
+.sounds-in-my-head {
+  background: #261d2e;
+  color: white;
+  overflow: hidden;
+}
+.sounds-in-my-head .container-fluid {
+  padding-right: 0;
+}
+.sounds-in-my-head {
+  padding-bottom: 0;
+}
+.sounds-device-col {
+  padding: 0;
+}
+/* wb flashback section */
+.wb-flashback {
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+}
+/* hide until 500px */
+.wb-flashback-mobile {
+  display: none;
+}
+.wb-flashback-pic {
+  margin-top: 60px;
+}
+.wb-flashback-content {
+  margin-top: 140px;
+}
+.wb-flashback-content span {
+  background-color: #db5461;
+  font: 20px/25px "MuseoSans-500", sans-serif;
+  letter-spacing: 0.05em;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 50px;
+  padding: 14px 20px 0;
+}
+.wb-flashback-content span:hover {
+  background-color: #ff6674;
+}
+.wb-flashback-content h3 {
+  margin-top: 20px;
+  font: 22px/32px MuseoSans-300, sans-serif;
+  letter-spacing: 0.05em;
+}
+.wb-flashback-container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* flying with daniel section */
+.flying-with-dsd-container {
+  background-color: #08180b;
+  color: white;
+  overflow-x: none;
+}
+.flying-with-dsd {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.flying-with-dsd a,
+.flying-with-dsd span {
+  background-color: #b337bd;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: white;
+}
+.flying-with-dsd span:hover {
+  background-color: #97289f;
+}
+.flying-with-dsd-content {
+  margin: 30% 0;
+}
+.flying-with-dsd-pic img {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+.flying-with-dsd-pic {
+  width: 100%;
+  margin-left: auto;
+}
+.flying-with-dsd-content h3 {
+  padding: 30px 0;
+  font: 22px/32px MuseoSans-300, sans-serif;
+  letter-spacing: 0.05em;
+}
+.fly-btn-show-small {
+  display: none;
+}
+/* vinnies pizza section */
+.vinnies-pizza-container {
+  background-color: #ebebeb;
+}
+.vinnies-pizza-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+.vinnies-pizza-content img {
+  width: 100%;
+}
+.vinnies-logo-show-lg {
+  display: block;
+  padding-top: 50px;
+}
+.vinnies-logo-show-sm {
+  display: none;
+}
+.vinnies-content img {
+  margin-top: 0px;
+}
+.vinnies-content p {
+  margin-top: 20px;
+  font: 22px/32px MuseoSans-300, sans-serif;
+  letter-spacing: 0;
+}
+.vinnies-content a {
+  color: #122376;
+  font: 22px/32px MuseoSans-700, sans-serif;
+  letter-spacing: 0;
+}
+.vinnies-content span.btn {
+  background-color: #122376;
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+  font: 20px/25px "MuseoSans-500", sans-serif;
+  letter-spacing: 0.05em;
+  height: 50px;
+  padding: 14px 20px 0;
+}
+.vinnies-content span.btn:hover {
+  background-color: #091550;
+}
+/* plants sections */
+.plants-container {
+  background-image: url("../new-images/plants-with-no-word.jpg");
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.plants {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  /* max-width: 400px; */
+  overflow: hidden;
+}
+.close {
+  font-size: 4rem;
+  color: red;
+}
+/* plants modal pop up */
+.image-modal-content-wrapper {
+  width: 70vw;
+  display: block;
+  margin: auto;
+  position: absolute; /* max-width: 1200px; */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* fullscreen modal wrapper */
+.image-modal {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.93);
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  display: none;
+  color: white;
+  text-align: center;
+}
+/* popup X Icon */
+.image-modal span {
+  position: fixed;
+  right: -70px;
+  top: 0;
+  /* transform: translate(-20%, -50%); */
+  z-index: 100001;
+  color: white;
+  font-size: 4rem;
+  cursor: pointer;
+  background: none;
+}
+.image-modal span:hover {
+  color: red;
+  border-radius: 50%;
+}
+.plants a {
+  background-color: #eb5624;
+  font: 20px/25px "MuseoSans-500", sans-serif;
+  letter-spacing: 0.05em;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+  height: 50px;
+  padding: 14px 20px 0;
+  margin-bottom: 20px;
+}
+/* .plants span:hover {
+  background-color: #e0430e;
+} */
+.plants img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  opacity: 0.9;
+  overflow-x: hidden;
+}
+.plants h3 {
+  margin-top: 5vh;
+  font: 22px/32px MuseoSans-300, sans-serif;
+  letter-spacing: 0.05em;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .modal-content {
+  margin-top: 20%;
+   background: rgba(0, 0, 0, 0);
+  border: none;
+} */
+/* new york grid */
+.grid-container {
+  display: grid;
+  height: 100%;
+  padding-top: 60px;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 0.9fr;
+  grid-gap: 40px 0px;
+  grid-template-areas:
+    "new-york-svg new-york-pic-1 new-york-pic-2"
+    "new-york-text-btn new-york-text-btn new-york-pic-2";
+}
+/* new york post section */
+.new-york-svg {
+  grid-area: new-york-svg;
+  margin-right: 50px;
+}
+.new-york-pic-1 {
+  grid-area: new-york-pic-1;
+}
+.new-york-pic-1 img {
+  transform: rotate(-10deg);
+}
+.new-york-pic-2 {
+  grid-area: new-york-pic-2;
+}
+.new-york-pic-2 img {
+  transform: rotate(10deg);
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.5);
+}
+.new-york-text-btn {
+  grid-area: new-york-text-btn;
+  width: 90%;
+}
+.new-york-text-btn h3 {
+  margin: -15px 0 0 0;
+  font: 22px/32px MuseoSans-300, sans-serif;
+  letter-spacing: 0;
+}
+.new-york-text-btn h3 a {
+  font: 22px/32px MuseoSans-700, sans-serif;
+  letter-spacing: 0;
+  color: black;
+}
+h3 strong {
+  font-family: MuseoSans-900, sans-serif;
+}
+.new-york-text-btn span {
+  background-color: #000;
+  font: 20px/25px "MuseoSans-500", sans-serif;
+  color: white;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  height: 50px;
+  padding: 14px 20px 0;
+}
+.new-york-text-btn span:hover {
+  background-color: #d54d48;
+}
+.new-york-post-container img {
+  width: 95%;
+}
+.new-york-post-container {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  height: auto;
+}
+/* vans section */
+.vans-container {
+  background-color: #eceabb;
+}
+.vans-container img {
+  width: 100%;
+}
+/* vans grid */
+.vans-grid-container {
+  display: grid;
+  height: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
+  grid-gap: 0px 0px;
+  grid-template-areas: "vans-logo vans-logo vans-pic-2 vans-pic-4" "vans-text-btn vans-pic-1 vans-pic-3 vans-pic-5";
+  overflow: hidden;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.vans-container img {
+  display: block;
+  width: 90%;
+  margin: auto;
+  box-shadow: 9px -9px 15px 0 rgba(0, 0, 0, 0.3);
+  border: solid 5px #ffffff;
+}
+/* display none for small vans container */
+.vans-display-small {
+  display: none;
+}
+.vans-logo {
+  grid-area: vans-logo;
+  width: 70%;
+  margin: auto;
+}
+.vans-logo img {
+  box-shadow: none;
+  border: none;
+  width: 100%;
+}
+.vans-text-btn {
+  grid-area: vans-text-btn;
+  width: 70%;
+  margin-left: auto;
+}
+.vans-text-btn h3 {
+  font: 22px/32px MuseoSans-300, sans-serif;
+}
+.vans-text-btn span {
+  background-color: #db5461;
+  font: 20px/25px "MuseoSans-500", sans-serif;
+  color: white;
+  border-radius: 10px;
+  margin: 15px 0 0 0;
+  height: 50px;
+  padding: 14px 20px 0;
+}
+.vans-text-btn span:hover {
+  background-color: #26929e;
+}
+.vans-pic-1 {
+  grid-area: vans-pic-1;
+  transform: rotate(-7deg);
+}
+.vans-pic-2 {
+  grid-area: vans-pic-2;
+  transform: rotate(5deg);
+}
+.vans-pic-3 {
+  grid-area: vans-pic-3;
+  transform: rotate(2deg);
+}
+.vans-pic-4 {
+  grid-area: vans-pic-4;
+  transform: rotate(-5deg);
+}
+.vans-pic-5 {
+  grid-area: vans-pic-5;
+  transform: rotate(-2deg);
+}
+/* hide small van section until 500px */
+/* contact section */
+section.contact h2,
+section.cta .cta-content h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font: 22px/32px MuseoSans-300, sans-serif;
+  color: #3d3941;
+}
+section.contact ul.list-social li {
+  padding: 0 10px;
+}
+/* media */
+/* changes spacing on sounds section */
+@media (max-width: 1100px) {
+  .sounds-logo {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .sounds-in-my-head .btn {
+    margin-top: 0px;
+  }
+}
+/* changes basic spacing */
+@media (max-width: 991px) {
+  .sounds-logo {
+    margin: 0 auto;
+  }
+  .sounds-in-my-head .btn {
+    margin-bottom: 50px;
+  }
+  .sounds-logo img {
+    width: 85%;
+  }
+  .flying-with-dsd {
+    width: 90%;
+  }
+  .vinnies-content img {
+    width: 70%;
+  }
+  /* change img slide gallery animation and img width */
+  .portfolio-image-slider img {
+    width: 300px; /* margin: 0 20px;
+    margin-top: 100px; */
+    height: 300px;
+  }
+  @keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -1700px;
+    }
+  }
+  @-moz-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -1700px;
+    }
+  }
+  @-webkit-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -1700px;
+    }
+  }
+  @-ms-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -1700px;
+    }
+  }
+  @-o-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -1700px;
+    }
+  }
+}
+@media (max-width: 890px) {
+  /* changes new york post container to flex */
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 60px;
+    width: 90%;
+  }
+  /* changes new york spacing */
+  .new-york-post-container img {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+  .new-york-text-btn {
+    grid-area: new-york-text-btn;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  /* changes vans grid to flex */
+  .vans-grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* changes van section spacing */
+  .vans-container img {
+    display: block;
+    width: 60%;
+    margin: auto;
+    box-shadow: 9px -9px 15px 0 rgba(0, 0, 0, 0.3);
+    border: solid 5px #ffffff;
+  }
+  .vans-logo {
+    width: 70%;
+    margin: auto;
+  }
+  .vans-logo img {
+    box-shadow: none;
+    border: none;
+    width: 100%;
+  }
+  .vans-text-btn {
+    grid-area: vans-text-btn;
+    width: 70%;
+    margin: 30px auto;
+  }
+  .vans-text-btn span {
+    background-color: #db5461;
+    color: white;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .flying-with-dsd-content {
+    width: 90%;
+    display: block;
+    margin: 40px auto 0;
+  }
+  .flying-with-dsd span {
+    background-color: #b337bd;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  .flying-with-dsd-content h3 {
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    margin: 0;
+  }
+  .flying-with-dsd-pic {
+    display: block;
+    margin: 0 auto;
+  }
+  .vinnies-content img {
+    width: 80%;
+  }
+  .vinnies-pizza-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .wb-flashback-content {
+    margin-top: 50px;
+  }
+  .wb-flashback {
+    padding-bottom: 90px;
+  }
+  /* plants modal pop up */
+  .image-modal-content-wrapper {
+    width: 85vw;
+  }
+  .image-modal span {
+    right: 20px;
+    top: -100px;
+  }
+}
+@media (max-width: 650px) {
+  .wb-flashback-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .flying-with-dsd-content {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .flying-with-dsd-pic {
+    width: 100%;
+  }
+  .vinnies-content img {
+    width: 90%;
+  }
+  .plants {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 550px) {
+  .new-york-post-container img {
+    width: 80%;
+    display: block;
+    margin: auto;
+  } /* plants modal pop up */
+  .image-modal-content-wrapper {
+    width: 95vw;
+  }
+  .new-york-text-btn {
+    grid-area: new-york-text-btn;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .vans-container img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    box-shadow: 9px -9px 15px 0 rgba(0, 0, 0, 0.3);
+    border: solid 5px #ffffff;
+  }
+  .vans-logo {
+    width: 90%;
+    margin: auto;
+  }
+  .vans-logo img {
+    box-shadow: none;
+    border: none;
+    width: 100%;
+  }
+  .vans-text-btn {
+    grid-area: vans-text-btn;
+    width: 90%;
+    margin: 30px auto;
+  }
+  .vans-text-btn span {
+    background-color: #db5461;
+    color: white;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 992px) {
+  /* changes landing page background image 992px */
+  header.masthead {
+    display: none;
+  }
+  .landing-small-screen {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to right, #d5896f, #240b36);
+    z-index: 11;
+    margin: auto;
+    overflow-x: hidden;
+  }
+  .landing-small-screen h1 {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    font-family: "MuseoSans-300", sans-serif;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+  .landing-small-screen img {
+    display: block;
+    margin: auto;
+    padding-top: 10vh;
+    height: 100vh;
+  }
+  .landing-small-screen-content {
+    position: absolute;
+    color: white;
+    bottom: 15vh;
+    margin: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    z-index: 2;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+  }
+  .landing-small-screen-content a {
+    background-color: #db5461;
+    color: white;
+    border-radius: 10px;
+    padding: 13px 15px;
+    height: 48px;
+    font: 18px/25px "MuseoSans-500", sans-serif;
+  }
+  .landing-small-screen-content img {
+    display: block;
+    margin: auto;
+    overflow-x: hidden;
+  }
+}
+/* changes spacing of text at 420px */
+@media (max-width: 420px) {
+  .landing-small-screen-content {
+    position: absolute;
+    color: white;
+    bottom: 8vh;
+    margin: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    z-index: 2;
+    width: 100%;
+    left: 0%;
+    margin-left: 0px;
+    padding: 0 4px;
+  }
+}
+/* hide image at small height */
+@media (max-height: 450px) {
+  .landing-small-screen img {
+    display: none;
+  }
+  .landing-small-screen {
+    height: 100vh;
+  }
+}
+/* mobile media queries */
+@media (max-width: 500px) {
+  .sounds-logo {
+    text-align: center;
+    width: 100%;
+  }
+  .sounds-logo h4 {
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    margin: auto;
+  }
+  .sounds-logo .btn {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 13px 15px;
+    height: 48px;
+    font: 18px/25px "MuseoSans-500", sans-serif;
+  }
+  /* change out wb flashback logos */
+  .wb-flashback-mobile {
+    display: block;
+  }
+  .wb-flashback-large {
+    display: none;
+  }
+  .wb-flashback {
+    padding-bottom: 40px;
+  }
+  .wb-flashback-content {
+    text-align: center;
+  }
+  .wb-flashback-content h3 {
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+  }
+  .flying-with-dsd {
+    padding-top: 50px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 0px;
+    overflow: hidden;
+  }
+  .flying-with-dsd-content {
+    width: 80%;
+  }
+  .flying-with-dsd-content img {
+    width: 80%;
+  }
+  .fly-btn-show-lg {
+    display: none;
+  }
+  .flying-with-dsd-pic img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .fly-btn-show-small {
+    display: block;
+    max-width: 230px;
+    margin: auto;
+  }
+  .vinnies-pizza-content {
+    padding: 60px 0;
+    text-align: center;
+  }
+  .vinnies-pizza-content p {
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    text-align: left;
+  }
+  .vinnies-pizza-content p a {
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+  }
+  .vinnies-logo-show-sm {
+    margin-bottom: 20px;
+    display: block;
+  }
+  .vinnies-logo-show-lg {
+    display: none;
+  }
+  .vinnies-content .btn {
+    text-align: center;
+  }
+  /* plants section */
+  .plants img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.9;
+    overflow: hidden;
+  }
+  .plants h3 {
+    margin-top: 5vh;
+    font: 1.1rem/1.9rem MuseoSans-300, sans-serif;
+    letter-spacing: 0.05em;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* new york post section */
+  .new-york-svg {
+    margin-right: 0px;
+    width: 50%;
+    margin: auto;
+  }
+  .new-york-text-btn {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    z-index: 2;
+  }
+  .new-york-text-btn h3 {
+    font-family: MuseoSans-300, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    padding-top: 20px;
+  }
+  .new-york-text-btn h3 a {
+    font-family: MuseoSans-700, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+  }
+  .new-york-text-btn span {
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+  .new-york-post-container {
+    position: relative;
+    height: 730px;
+  }
+  .new-york-post-container img {
+    width: 100%;
+  }
+  .new-york-pic-1 {
+    width: 50%;
+  }
+  /* absolute position pic 2 to be next to pic 1 */
+  .new-york-pic-2 {
+    width: 50%;
+    position: absolute;
+    bottom: -180px;
+    right: 0;
+  }
+  .vans-grid-container {
+    padding: 50px 0;
+    text-align: center;
+    display: none;
+  }
+  .vans-text-btn h3 {
+    font-size: 1.3rem;
+  }
+  .vans-text-btn .btn {
+    margin-top: 10px;
+  }
+  /* hide van pic 5 */
+  .vans-pic-3 {
+    display: none;
+  }
+  .vans-pic-4 {
+    display: none;
+  }
+  .vans-pic-5 {
+    display: none;
+  }
+  .vans-container img {
+    width: 100%;
+  }
+  .vans-pic-1 {
+    transform: rotate(5deg);
+    z-index: 1;
+  }
+  .vans-pic-2 {
+    transform: rotate(-5deg);
+  }
+  .vans-pic-3 {
+    transform: rotate(-7deg);
+  }
+  .vans-pic-4 {
+    transform: rotate(2deg);
+  }
+  .vans-display-small {
+    display: block;
+  }
+  .vans-display-small {
+    background-color: #eceabb;
+    padding: 50px 0;
+    height: auto;
+    overflow-x: hidden;
+  }
+  .vans-text-content-small {
+    text-align: center;
+  }
+  .vans-text-content-small .btn {
+    background-color: #db5461;
+    border-radius: 10px;
+    color: white;
+    margin: 20px auto;
+  }
+  .vans-text-content-small h3 {
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    margin-top: 20px;
+    font-family: "MuseoSans-500", sans-serif;
+  }
+  .vans-group-1 img,
+  .vans-group-2 img {
+    width: 100%;
+    height: 100%;
+    border: 3px solid white;
+  }
+  .vans-group-1 {
+    display: flex;
+  }
+  .vans-group-2 {
+    display: flex;
+  }
+  #van-small-1 {
+    transform: rotate(5deg);
+    box-shadow: 5.5px 5.5px 9px 0 rgba(0, 0, 0, 0.1);
+  }
+  #van-small-2 {
+    transform: rotate(-5deg);
+    box-shadow: 5.5px 5.5px 9px 0 rgba(0, 0, 0, 0.1);
+  }
+  #van-small-3 {
+    transform: rotate(-7deg);
+    box-shadow: 6.5px -6.5px 10.5px 0 rgba(0, 0, 0, 0.1);
+  }
+  #van-small-4 {
+    transform: rotate(2deg);
+    box-shadow: -6.5px -6.5px 10.5px 0 rgba(0, 0, 0, 0.1);
+  }
+}
