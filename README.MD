@@ -15,4 +15,7 @@ Check out live demo on my domain https://riley.gg/upwork-4/
 This awesome design was provided by the client
 
 ![Landing Page](https://i.imgur.com/J7KeoDc.png)
+
+## Pure CSS animations showcasing client's work
+
 ![Animated Portfolio Section](upwork-4-css-animations.gif)
