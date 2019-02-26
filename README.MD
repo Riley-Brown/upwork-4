@@ -5,6 +5,9 @@ Check out live demo on my domain https://riley.gg/upwork-4/
 ### Features:
 
 - Custom Bootstrap template
+
+* Lazy loaded images when image close to viewport
+
 - CSS Animations for scrolling portfolio section
 - CSS Grid for New York Post and Vans section
 - Custom modal popup with Vimeo embed
@@ -12,3 +15,4 @@ Check out live demo on my domain https://riley.gg/upwork-4/
 This awesome design was provided by the client
 
 ![Landing Page](https://i.imgur.com/J7KeoDc.png)
+![Animated Portfolio Section](upwork-4-css-animations.gif)
